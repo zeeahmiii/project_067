@@ -4,10 +4,6 @@ function sessionAuth(req,res,next){
     next();
 }
 
-function sessionAuth(req,res,next){
-    //set variable for every pug file
-    res.locals.admin=req.session.admin;
-    next();
-}
+
 
 module.exports=sessionAuth;

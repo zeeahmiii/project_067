@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var productRouter = require('./routes/product');
 
 var usersRouter = require('./routes/users');
-var adminRouter = require('./routes/admins');
+
 var session = require('express-session')
 var sessionAuth = require("./middleware/sessionAuth");
 const { default: mongoose } = require('mongoose');
